@@ -1,0 +1,26 @@
+PlayStation3J/
+├── firmware-gow3.json      ← seu firmware fake/teste
+├── GodOfWar3.iso           ← sua ROM legal
+└── index.html              ← seu HTML Creator + style.css + script.js{
+  "nome": "PlayStation 3J Firmware",
+  "versao": "1.0",
+  "compatibilidade": ["God of War 3"],
+  "comandos": {
+    "X": "ataque_leve",
+    "Y": "ataque_pesado",
+    "A": "pular",
+    "B": "esquivar",
+    "L1": "defender",
+    "R1": "habilidade",
+    "L2": "magia",
+    "R2": "especial",
+    "start": "menu",
+    "select": "mapa",
+    "analogico": "movimento",
+    "turbo": "ativar"
+  },
+  "fps_padrao": 60,
+  "modo_padrao": "suave",
+  "resolucao_padrao": "2x",
+  "shader_padrao": true
+}
